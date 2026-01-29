@@ -10,13 +10,16 @@ const SideBar = () => {
           <Link to="/">ホーム</Link>
         </li>
         <li>
-          <Link>顧客リスト</Link>
+          <Link to="/chart">顧客リスト</Link>
         </li>
         <li>
           <Link to="/chart">チャート</Link>
         </li>
         <li>
-          <Link>ログアウト</Link>
+          <Link to="/orders">注文管理</Link>
+        </li>
+        <li>
+          <Link to="*">ログアウト</Link>
         </li>
       </ul>
     </div>

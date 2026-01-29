@@ -3,9 +3,10 @@ import styles from "./style.module.scss";
 import Header from "../../layout/Header";
 import SideBar from "../../layout/SideBar";
 import ChartBar from "../../components/Chart";
-
+// import useAuth from "../../hooks/useAuth";
 
 const Chart = () => {
+  // useAuth();
 
   return (
     <>

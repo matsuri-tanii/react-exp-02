@@ -2,25 +2,21 @@ import React from "react";
 import styles from "./style.module.scss";
 import Header from "../../layout/Header";
 import SideBar from "../../layout/SideBar";
-import News from "../../components/News";
-import CalendarItem from "../../components/CalendarItem";
+import CustomerList from "../../components/CustomerList";
 // import useAuth from "../../hooks/useAuth";
 
-const Home = () => {
+const Customer = () => {
   // useAuth();
 
   return (
     <>
       <Header />
-      <div className={styles.home}>
+      <div className={styles.customer}>
         <SideBar />
-        <div className={styles.contents}>
-          <News />
-          <CalendarItem />
-        </div>
+        <CustomerList />
       </div>
     </>
   );
 };
 
-export default Home;
+export default Customer;
